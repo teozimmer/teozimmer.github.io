@@ -4,16 +4,16 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #42f2f5;
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 10px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -26,13 +26,26 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: Orange;
-  color: white;
+  background-color: #1612ff;
+  color: #fc17e2;
 }
 
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+}
+
+.link-btns
+{
+width: auto;
+height:20px;
+}
+
+.portrait-img
+{
+  width: 20%;
+  float:left;
+  padding-right: 10px;
 }
 
 body {
@@ -54,8 +67,9 @@ h1,h2 {
 img {
  width: 20%;
  float:left;
- padding-right: 20px;
+ padding-right: 3px;
 }
+
 footer{
   margin-top: 50px;
   background-color: Orange;
