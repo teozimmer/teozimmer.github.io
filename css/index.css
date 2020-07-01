@@ -2,6 +2,52 @@
   width: 60%;
   margin: auto;
 }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #42f2f5;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #1612ff;
+  color: #fc17e2;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+.link-btns
+{
+width: auto;
+height:20px;
+}
+
+.portrait-img
+{
+  width: 20%;
+  float:left;
+  padding-right: 10px;
+}
+
 body {
  font-family: Arial;
  color: SlateGray;
@@ -19,8 +65,11 @@ h1,h2 {
 }
 
 img {
- width: 100%;
+ width: 20%;
+ float:left;
+ padding-right: 3px;
 }
+
 footer{
   margin-top: 50px;
   background-color: Orange;
@@ -32,7 +81,7 @@ footer p{
   padding-top: 20;
   padding-bottom: 20;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 650px) {
   body {
     background-color: lightblue;
   }
